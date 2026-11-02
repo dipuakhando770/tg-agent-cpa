@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "community-directory",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2025-07-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": { "directory": ".output/public", "binding": "ASSETS" },
+  "vars": { "SITE_ENV": "production" },
+  "r2_buckets": [
+    { "binding": "COMMUNITY_MEDIA", "bucket_name": "community-directory-media" }
+  ]
+}

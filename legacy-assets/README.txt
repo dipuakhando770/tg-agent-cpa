@@ -1,0 +1,1 @@
+Reference assets extracted from the user-provided ZIP for visual reference. Review ownership and usage rights before publishing. Compiled JavaScript and third-party tracking code were not carried forward.
